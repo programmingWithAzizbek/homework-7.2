@@ -48,6 +48,14 @@ function Header() {
                   Todo
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to={"/players"}
+                  className={`px-4 py-2 rounded-lg bg-black text-white`}
+                >
+                  Players
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>

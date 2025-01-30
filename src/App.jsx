@@ -5,6 +5,7 @@ import Counter from "./pages/Counter.jsx";
 import Cart from "./pages/Cart.jsx";
 import Modal from "./pages/Modal.jsx";
 import Todo from "./pages/Todo.jsx";
+import Players from "./pages/Players.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/cart" element={<Cart />} />
       <Route path="/modal" element={<Modal />} />
       <Route path="/todo" element={<Todo />} />
+      <Route path="/players" element={<Players />} />
     </Routes>
   );
 }
