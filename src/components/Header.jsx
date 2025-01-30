@@ -40,6 +40,14 @@ function Header() {
                   Modal
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to={"/todo"}
+                  className={`px-4 py-2 rounded-lg bg-black text-white`}
+                >
+                  Todo
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>
